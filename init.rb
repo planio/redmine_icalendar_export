@@ -21,8 +21,8 @@ require 'redmine'
 require 'redmine_icalendar_export/hooks'
 
 Redmine::Plugin.register :redmine_icalendar_export do
-  name 'redmine icalendar export plugin (aka redmics)'
-  author 'Frank Schwarz, Jan Schulz-Hofen (Planio)'
+  name 'Redmine ICalendar Export Plugin (aka redmics)'
+  author 'Frank Schwarz, Jan Schulz-Hofen (Planio GmbH)'
   description 'ICalendar view of issue- and version-deadlines'
   version '1.1'
   url 'http://code.google.com/p/redmics/'
